@@ -9,10 +9,15 @@ using namespace std;
 
 void main()
 {
-	int iCount = 0;
+	int i, iCount = 0;
 
+<<<<<<< HEAD
 	for(int i = 0; i <= 9; i++)
 		iCount++;
+=======
+	for(i = 0; i < 10; i++)
+		iCount = iCount + 1;
+>>>>>>> FIX_BUG
 
 	cout << iCount;
 
