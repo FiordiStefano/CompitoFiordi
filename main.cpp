@@ -9,10 +9,10 @@ using namespace std;
 
 void main()
 {
-	int iCount = 0;
+	int i, iCount = 0;
 
-	for(int i = 0; i < 10; i++)
-		iCount++;
+	for(i = 0; i < 10; i++)
+		iCount = iCount + 1;
 
 	cout << iCount;
 
